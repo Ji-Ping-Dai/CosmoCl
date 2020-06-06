@@ -9,4 +9,4 @@ The main part to calculate the correlation power spectrum is in **source/mpk_cl.
 In this package, it does not consider any complicated theories. Actually, we only calculate the auto-correlation of LSS number density perturbations and its cross-correlation with CMB temperature fluctuations. The only free parameter is the bias term. The corresponding formulae are (more details in [(J. P. Dai, J. Q. Xia)](https://academic.oup.com/mnrasl/article/491/1/L61/5614501)):<br>
 ![](https://github.com/Ji-Ping-Dai/CosmoCl/blob/master/docs/Cl1.PNG)<br>
 ![](https://github.com/Ji-Ping-Dai/CosmoCl/blob/master/docs/Cl2.PNG)<br>
-You can extend this package to other measurements such as weak lensing by changing the transfer functions and window functions.
+You can extend this package to add other measurements such as weak lensing by changing the transfer functions and window functions.
