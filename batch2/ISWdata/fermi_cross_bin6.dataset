@@ -1,0 +1,16 @@
+name = fermi_cross_bin6
+
+# number of points and kbands in the input files
+num_mpk_points_full = 511
+
+# decide which bandpowers to use, min to max
+min_mpk_points_use = 1
+max_mpk_points_use = 511
+
+trace_1 = 1
+trace_2 = 0
+
+windows_file = batch2/ISWdata/anni_DM_100.0_winfun.dat
+measurements_file = batch2/ISWdata/bin6cl.dat
+cov_file = batch2/ISWdata/bin6incov.dat
+bias_file = batch2/ISWdata/bias_dm_eff.txt

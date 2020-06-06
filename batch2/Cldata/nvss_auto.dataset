@@ -1,0 +1,15 @@
+name = nvss_auto
+
+# number of points and kbands in the input files
+num_mpk_points_full = 511
+
+# decide which bandpowers to use, min to max
+min_mpk_points_use = 2
+max_mpk_points_use = 512
+
+CMB_cross_LSS = F
+LSS_cross_LSS = T
+
+windows_file = batch2/Cldata/nvss_zdist.txt
+measurements_file = batch2/Cldata/nvsscl_auto.dat
+cov_file = batch2/Cldata/nvsscov_auto.dat
